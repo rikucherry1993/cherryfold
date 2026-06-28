@@ -1,5 +1,10 @@
 # 🍒 cherryfold
 
+[![PyPI version](https://img.shields.io/pypi/v/cherryfold.svg)](https://pypi.org/project/cherryfold/)
+[![Python versions](https://img.shields.io/pypi/pyversions/cherryfold.svg)](https://pypi.org/project/cherryfold/)
+[![License: MIT](https://img.shields.io/pypi/l/cherryfold.svg)](https://github.com/rikucherry1993/cherryfold/blob/main/LICENSE)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-support-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/rikucherry)
+
 **Fold, outline, search & copy your Claude Code sessions — right in the terminal.**
 
 Long agent runs turn into a navigable **outline** of **collapsible blocks**. Jump
@@ -118,6 +123,11 @@ editable there under `"icons"`.
 - `cherryfold/app.py` — Textual TUI (collapsibles, outline, search, copy, follow, settings).
 - `cherryfold/launcher.py` — terminal detection + split/new-window strategies.
 - `cherryfold/cli.py` — subcommands.
+
+## Support
+If cherryfold saves you time, you can support its development:
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/rikucherry)
 
 ## License
 MIT.
