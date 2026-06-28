@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cherryfold"
+version = "0.1.0"
+description = "Fold, outline, search & copy your Claude Code sessions, right in the terminal."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "rikucherry" }]
+keywords = ["claude-code", "tui", "textual", "session-viewer", "terminal", "log-viewer"]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Utilities",
+]
+dependencies = ["textual>=0.80"]
+
+[project.urls]
+Homepage = "https://github.com/rikucherry1993/cherryfold"
+Issues = "https://github.com/rikucherry1993/cherryfold/issues"
+
+[project.scripts]
+cherryfold = "cherryfold.cli:main"
+
+[tool.setuptools]
+packages = ["cherryfold"]
